@@ -3,7 +3,7 @@ const BLOG = {
   // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_PAGE_ID:
     process.env.NOTION_PAGE_ID ||
-    '47d649d173b548fbae9d0c0c2618df0a',
+    '13638a761258808fb0fccbb374ade11f',
   PSEUDO_STATIC: process.env.NEXT_PUBLIC_PSEUDO_STATIC || false, // 伪静态路径，开启后所有文章URL都以 .html 结尾。
   NEXT_REVALIDATE_SECOND: process.env.NEXT_PUBLIC_REVALIDATE_SECOND || 300, // 更新内容缓存间隔 单位(秒)；即每个页面有5秒的纯静态期、此期间无论多少次访问都不会抓取notion数据；调大该值有助于节省Vercel资源、同时提升访问速率，但也会使文章更新有延迟。
   THEME: process.env.NEXT_PUBLIC_THEME || 'nobelium', // 当前主题，在themes文件夹下可找到所有支持的主题；主题名称就是文件夹名，例如 example,fukasawa,gitbook,heo,hexo,landing,matery,medium,next,nobelium,plog,simple
@@ -24,10 +24,10 @@ const BLOG = {
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || true, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '陈成龙', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '陈成龙的博客', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://chenchenglong.com', // 网站地址
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '陈成龙,陈成龙的博客,chenchenglong', // 网站关键词 英文逗号隔开
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '积木好课', // 您的昵称 例如 tangly1024
+  BIO: process.env.NEXT_PUBLIC_BIO || '积木好课官方网站', // 作者简介
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://jimuhaoke.com', // 网站地址
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '积木好课,jimuhaoke,积木好课课程', // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'chenglongchen@qq.com', // 邮箱地址 例如mail@tangly1024.com
