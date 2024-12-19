@@ -26,10 +26,9 @@ export const Footer = (props) => {
        </div>
            <span className='text-xs font-serif'>
           <a
-            href='https://github.com/tangly1024/NotionNext'>
-            NotionNext
+            href='https://beian.miit.gov.cn/'>
+            鲁ICP备2021035365号-2
           </a>
-          .
         </span>
      </div>
    </footer>
