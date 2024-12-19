@@ -24,6 +24,13 @@ export const Footer = (props) => {
          </p>
          <Vercel />
        </div>
+           <span className='text-xs font-serif'>
+          <a
+            href='https://github.com/tangly1024/NotionNext'>
+            NotionNext
+          </a>
+          .
+        </span>
      </div>
    </footer>
 }
