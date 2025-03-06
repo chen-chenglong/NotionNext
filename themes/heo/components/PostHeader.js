@@ -104,7 +104,7 @@ export default function PostHeader({ post, siteInfo, isDarkMode }) {
           <section className='flex-wrap dark:text-gray-200 text-opacity-70 shadow-text-md flex text-sm  justify-center md:justify-start mt-4 text-white font-light leading-8'>
             <div className='flex justify-center '>
               <div className='mr-2'>
-              
+            
               </div>
               {post?.type !== 'Page' && (
                 <>
