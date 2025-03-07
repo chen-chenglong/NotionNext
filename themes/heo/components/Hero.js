@@ -64,6 +64,9 @@ function BannerGroup(props) {
 function Banner(props) {
   const router = useRouter()
   const { allNavPages } = props
+/**
+   * 随机跳转文章
+   */
 
   // 遮罩文字
   const coverTitle = siteConfig('HEO_HERO_COVER_TITLE')
