@@ -1,3 +1,5 @@
+20250807 恢复评论系统
+
 20250806 使用 twikoo 系统
 
 20250731 更改默认FONT_AWESOME的CDN地址为国内 https://lib.baomitu.com/font-awesome/6.3.0/css/all.min.css
