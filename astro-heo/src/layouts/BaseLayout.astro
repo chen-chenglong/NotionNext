@@ -1,0 +1,15 @@
+---
+import '../styles/global.css'
+const { title = 'Astro Heo', description = 'Heo theme on Astro' } = Astro.props
+---
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

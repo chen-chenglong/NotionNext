@@ -35,6 +35,12 @@ export const THEME_SWITCH_MANIFEST = {
     name: 'Heo',
     summary: '致敬张洪Heo,丰富的 模块化组件。'
   },
+  astro: {
+    name: 'Astro',
+    summary: 'Heo 主题的 Astro 架构复刻版本。',
+    cover: '/images/themes-preview/heo.png',
+    coverWebp: '/images/themes-preview/heo.webp'
+  },
   hexo: {
     name: 'Hexo',
     summary: '类 Hexo 经典博客结构与侧边栏。'

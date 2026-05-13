@@ -1,0 +1,17 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import Header from '../../components/Header.astro'
+import { posts } from '../../lib/posts'
+export async function getStaticPaths() {
+  return posts.map(post => ({ params: { slug: post.slug }, props: { post } }))
+}
+const { post } = Astro.props
+---
+<BaseLayout title={post.title}>
+  <Header />
+  <article class="container card" style="padding:28px;margin:20px auto;max-width:900px;">
+    <h1>{post.title}</h1>
+    <p style="color:#6b7280">{post.date}</p>
+    <p>{post.content}</p>
+  </article>
+</BaseLayout>
